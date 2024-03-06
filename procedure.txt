@@ -1,0 +1,8 @@
+1. Create a venv
+2. Create a github repo
+3. Sync your code and github
+4. Create setup.py and requirements.txt - https://docs.python.org/3.11/distutils/setupscript.html
+5. Create src > __init__.py 
+6. -e . in requirements.txt will automatically trigger setup file
+7. pip install -r requirements.txt
+8. check an info pkg will be built.
