@@ -6,3 +6,7 @@
 6. -e . in requirements.txt will automatically trigger setup file
 7. pip install -r requirements.txt
 8. check an info pkg will be built.
+9. Create src>components > __init__.py
+10. components > data_ingestion.py & data_transformation.py & model_trainer.py
+11. src > pipeline > train_pipeline.py + predict_pipeline.py
+12. src > logger + exception + utils .py 
