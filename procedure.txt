@@ -10,3 +10,5 @@
 10. components > data_ingestion.py & data_transformation.py & model_trainer.py
 11. src > pipeline > train_pipeline.py + predict_pipeline.py
 12. src > logger + exception + utils .py 
+13. EDA & all -> notebook
+14. Data Ingestion
