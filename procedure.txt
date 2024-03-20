@@ -12,3 +12,4 @@
 12. src > logger + exception + utils .py 
 13. EDA & all -> notebook
 14. Data Ingestion
+15. Data Transform 
