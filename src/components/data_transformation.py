@@ -98,7 +98,7 @@ class DataTransformation:
 
             # Apply preprocessing object to training and testing dataframes
             input_feature_train_arr= preprocessing_obj.fit_transform(input_feature_train_df)
-            input_feature_test_arr= preprocessing_obj.fit_transform(input_feature_test_df)
+            input_feature_test_arr= preprocessing_obj.transform(input_feature_test_df)
 
             # Concatenate input features and target features for training data
             train_arr= np.c_[
